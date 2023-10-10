@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.header{
+    margin: 0 auto;
+    height: 5rem;
+    padding: 0 8vw;
+    background-color: #1f2936;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 3;
+    top: -1;
+}
+.headerImg{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 3.5rem;
+    margin-right: 45vw;
+}
+.headerLink{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.intro{
+    background-color: #1f2936;
+    padding: 5rem 8vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.introLeftHeader{
+    color: white;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.introLeftTxt{
+    color: rgb(225,225,225);
+    font-weight: 400;
+    font-size: 1rem;
+}
+.introRightImg{
+    object-fit: cover;
+    margin-left: 1rem;
+    height: 40vh;
+    width: 40vw;
+    border-radius: 0.5rem;
+}
+.introLeftBtn,.signupBtn{
+    background-color: #3882f6;
+    border: none;
+    border-radius: 0.5rem;
+    width: 5rem;
+    height: 2rem;
+}
+.introLeftBtnTxt,.signupBtnTxt{
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.random{
+    background-color: white;
+}
+.randomHeader{
+    padding-top: 3rem;
+    color: #1f2936;
+    text-align: center;
+}
+.randomRow{
+    margin: 3rem 17vw;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.randomColumn{
+    display: flex;
+    margin: 0 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.randomImg{
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+    height: 12rem;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.randomTxt{
+    text-align: center;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    padding: 5rem 19vw;
+}
+.quoteTxt{
+    text-align: left;
+    font-size: x-large;
+}
+.quoteBy{
+    font-weight: bold;
+    float: right;
+    font-style: italic;
+}
+
+.signup{
+    background-color:#3882f6;
+    border-radius: 0.5rem;
+    margin: 4rem 19vw;
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.signupContent{
+    color: white;
+}
+.signupContentHeader{
+    font-size:1.3rem;
+    font-weight: 600;
+}
+.signupContentTxt{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+.signupBtn{
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: white;
+    border-radius: 0.3rem;
+}
+
+.footer{
+    background-color: #1f2936;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerTxt{
+    color: white;
+}
