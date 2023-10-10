@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap');
+      </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
@@ -17,20 +20,26 @@
         <div class="introLeft">
             <h1 class="introLeftHeader">This website is awesome</h1>
             <p class="introLeftTxt">This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast</p>
-            <button class="introLeftBtn">Sign Up</button>
+            <button class="introLeftBtn"><span class="introLeftBtnTxt">Sign Up</span></button>
         </div>
-        <img src="" alt="Odin Image" class="introRightImg"/>
+        <img src="../odin-landing-page/assets/panda.jpg" alt="Odin Image" class="introRightImg"/>
     </div>
     <div class="random">
         <h1 class="randomHeader">Some random information</h1>
-        <img src="" alt="Random Image 1" class="randomImg">
-        <span class="randomTxt">this some subtext under an illustration or image</span>
-        <img src="" alt="Random Image 2" class="randomImg">
-        <span class="randomTxt">this some subtext under an illustration or image</span>
-        <img src="" alt="Random Image 3" class="randomImg">
-        <span class="randomTxt">this some subtext under an illustration or image</span>
-        <img src="" alt="Random Image 4" class="randomImg">
-        <span class="randomTxt">this some subtext under an illustration or image</span>
+        <div class="randomRow">
+            <div class="randomColumn">
+            <img src="../odin-landing-page/assets/panda.jpg" alt="Random Image 1" class="randomImg">
+            <span class="randomTxt">this some subtext under an illustration or image</span></div>
+            <div class="randomColumn">
+            <img src="../odin-landing-page/assets/panda.jpg" alt="Random Image 2" class="randomImg">
+            <span class="randomTxt">this some subtext under an illustration or image</span></div>
+            <div class="randomColumn">
+            <img src="../odin-landing-page/assets/panda.jpg" alt="Random Image 3" class="randomImg">
+            <span class="randomTxt">this some subtext under an illustration or image</span></div>
+            <div class="randomColumn">
+            <img src="../odin-landing-page/assets/panda.jpg" alt="Random Image 4" class="randomImg">
+            <span class="randomTxt">this some subtext under an illustration or image</span></div>
+        </div>
     </div>
     <div class="quote">
         <p class="quoteTxt">This is an inspiring quote or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
@@ -38,13 +47,15 @@
     </div>
     <div class="signup">
         <div class="signupContent">
-            <span class="signupContentHeader">Call to action! It's time!</span>
-            <span class="signupcontentTxt">Sign up for our product by clicking that button</span>
-            <button class="signupBtn">Sign up</button>
+            <span class="signupContentHeader">Call to action! It's time!</span><br>
+            <span class="signupContentTxt">Sign up for our product by clicking that button</span>
+        </div>
+        <div class="signupBtnDiv">
+            <button class="signupBtn"><span class="signupBtnTxt">Sign up</span></button>
         </div>
     </div>
     <div class="footer">
-        <span class="footerTxt">Copyright OmKharade 2023</span>
+        <span class="footerTxt">Copyright &#169; 2023 Om Kharade. All rights reserved.</span>
     </div>
 </body>
 </html>
